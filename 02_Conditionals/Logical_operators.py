@@ -17,3 +17,12 @@ if x > y:
     print("x is greater than y")
 else:
     print("x is not greater than y")
+
+var_3, var_4, var_5 = 9, 10, 15
+
+print('var_4 and var_5?',var_4<100 and var_5 < 100)
+
+# OR operator requires only one condition to be true
+# AND operator requires both condition to be true
+
+
