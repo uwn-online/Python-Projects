@@ -1,36 +1,36 @@
-# text = "   Learning Python   is fun and   engaging! Let's    split these words properly.   "
+text = "   Learning Python   is fun and   engaging! Let's    split these words properly.   "
 
-# # Use split() to separate text into individual words
-# words = text.split() #Assign variable to store the split
+# Use split() to separate text into individual words
+words = text.split() #Assign variable to store the split
 
-# print(words)
+print(words)
 
 # Tuples 
 """ Unlike a lists and dictionaries, tuples like strings are immutable. They are used in Key elements in the dictionary"""
 
-# tuple_1 = (2, 4, 5, 6)
-# print(tuple_1[0:])
+tuple_1 = (2, 4, 5, 6)
+print(tuple_1[0:])
 
-# Nested lists
-# nested_list = [[1,2,3], [4,5,6], [7,8,9]]
-# print(nested_list[0][2]) # This access the content of the list in index 2 of list index 0
+#Nested lists
+nested_list = [[1,2,3], [4,5,6], [7,8,9]]
+print(nested_list[0][2]) # This access the content of the list in index 2 of list index 0
 
 
 # Creating a dictionary where the value pairs are dictionaries.
 
-# countries = {'France': {'Capital':'Paris', 'Language':'French'}, 'Spain': {'Capital':'Madrid', 'Language':'Espanola'},
-#              'United Kingdom': {'Capital':'London', 'Language':'English'}
-#              }
+countries = {'France': {'Capital':'Paris', 'Language':'French'}, 'Spain': {'Capital':'Madrid', 'Language':'Espanola'},
+             'United Kingdom': {'Capital':'London', 'Language':'English'}
+             }
 
-# print(countries['France'])
+print(countries['France'])
 
-# for key, value in countries.items():
-#     print(key, value)
+for key, value in countries.items():
+    print(key, value)
 
-# for key, value in countries.items():
-#     print(f'{value["Capital"]} is the capital of {key}, they speak {value["Language"]}')
+for key, value in countries.items():
+    print(f'{value["Capital"]} is the capital of {key}, they speak {value["Language"]}')
 
-
+# Books titles.
 library = {
     "Fiction": [
         {"title": "1984", "author": "George Orwell"},

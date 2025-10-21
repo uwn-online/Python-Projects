@@ -1,10 +1,10 @@
 """ Countdown timer exercise"""
 
-# n = 10
-# while n>= 0:
-#     print(n)
-#     n -= 1 #decreases value of n by 1
-# print('Takeoff!')
+n = 10
+while n>= 0:
+    print(n)
+    n -= 1 #decreases value of n by 1
+print('Takeoff!')
 
 # Sum of odd numbers using while loop
 n = 1

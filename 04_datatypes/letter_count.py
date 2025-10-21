@@ -26,14 +26,14 @@ once you've forced yourself to sit in a chair with a book and started reading, y
 
 """
 
-# letter_count = {}
-# for letter in reddit:
-#     letter_count[letter.lower()] = letter_count.get(letter, 0) + 1
-# print(letter_count)
+letter_count = {}
+for letter in reddit:
+    letter_count[letter.lower()] = letter_count.get(letter, 0) + 1
+print(letter_count)
 
 
 from collections import Counter
-# print(Counter(reddit.lower()))
+print(Counter(reddit.lower()))
 
 # Create a new dictionary from reddit variable
 new_dict = dict(Counter(reddit.lower()))
