@@ -75,3 +75,17 @@ deck = dict()
 for i in suits:
     deck[i] = rank
 print(deck)
+
+# Calculating shirt sales at Challenger LTD.
+
+shirt_sizes = [ 'M', 'XL', 'S', 'XS', 'L', '3XL', '2XL', '4XL',
+               'XS', 'L', '3XL', '2XL', '4XL', 'M', 'XL', 'S', 'XS', 'L',
+               'XL', 'S', 'XS', '4XL', 'M', 'XL','3XL', '2XL', 'L' ]
+
+shirt_count = {} # Creats an empty dictionary to append output
+
+for size in shirt_sizes:
+    shirt_count[size] = shirt_count.get(size, 0) +1 #Adds count of sizes in the dictionary
+print(shirt_count)
+
+
