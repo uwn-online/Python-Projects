@@ -1,6 +1,6 @@
 
 class Student(object):
-    # Class variable to keep track of total students
+    # Class variable to keep track of total students.
     total_students = 0
     
     def __init__(self, name, age, major, gpa, year):
@@ -30,7 +30,7 @@ class Student(object):
 
 class HonorsStudent(Student):
     def __init__(self, name, age, major, gpa, year, honors_program):
-        # Call the superclass (Student) constructor to set student attributes
+        # Call the superclass (Student) constructor to set student attributes.
         super().__init__(name, age, major, gpa, year)
         self.honors_program = honors_program
 

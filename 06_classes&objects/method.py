@@ -78,7 +78,7 @@ print(' ')
 """implementing update_age() and update_major() methods"""
 
 class Student(object):
-    # Class variable to keep track of total students
+    """ Class variable to keep track of total students"""
     total_students = 0
     
     def __init__(self, name, age, major, gpa, year):
