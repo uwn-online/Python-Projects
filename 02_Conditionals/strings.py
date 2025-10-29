@@ -1,11 +1,11 @@
-# my_string = 'Python'
-# print(len(my_string)) #Length of string
-# print(my_string[0:2]) #Slicing
-# print(my_string[-3:]) #character 
+my_string = 'Python'
+print(len(my_string)) #Length of string
+print(my_string[0:2]) #Slicing
+print(my_string[-3:]) #character 
 
 
-# print(my_string.upper())
-# print(my_string.lower())
+print(my_string.upper())
+print(my_string.lower())
 
 # Guessing game
 
