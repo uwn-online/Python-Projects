@@ -7,6 +7,9 @@ print(my_string[-3:]) #character
 print(my_string.upper())
 print(my_string.lower())
 
+
+
+
 # Guessing game
 
 word = 'summer'
@@ -24,6 +27,8 @@ elif guess == 'spring':
     print("No, it's not Spring, sorry!")
 else:
     print(guess.capitalize(),'is not a season')
+
+
 
 
 
